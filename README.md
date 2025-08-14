@@ -27,6 +27,9 @@
 
 * **Compare StateDicts & Gen-Keymap (InfiniNode)**: A utility node that serves as the starting point for any complex merge. It's designed to be the starting point for any complex merge. This node takes `state_dict_a` (source model) and `state_dict_b` (target model) as inputs. [cite_start]It outputs a `comparison_report` and a `keymap_template`[cite: 32, 33, 34, 35]. [cite_start]The `keymap_template` is a ready-to-use YAML-formatted string that can be copied, edited, and fed directly into the `Apply Keymap File` node[cite: 35].
 
+![Screenshot_1771](https://github.com/user-attachments/assets/16edccab-cb2f-4176-ac2a-40239935af61)
+
+
 ---
 
 ### 2. StateDict Manipulation Nodes
