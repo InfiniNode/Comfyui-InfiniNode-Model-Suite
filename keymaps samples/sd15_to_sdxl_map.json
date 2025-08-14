@@ -1,0 +1,14 @@
+{
+  "model.diffusion_model.input_blocks.1.0.emb_layers.1.weight": "model.diffusion_model.input_blocks.1.0.in_layers.2.weight",
+  "model.diffusion_model.input_blocks.1.0.emb_layers.1.bias": "model.diffusion_model.input_blocks.1.0.in_layers.2.bias",
+  "model.diffusion_model.input_blocks.2.0.emb_layers.1.weight": "model.diffusion_model.input_blocks.2.0.in_layers.2.weight",
+  "model.diffusion_model.input_blocks.2.0.emb_layers.1.bias": "model.diffusion_model.input_blocks.2.0.in_layers.2.bias",
+  "model.diffusion_model.middle_block.1.emb_layers.1.weight": "model.diffusion_model.middle_block.1.in_layers.2.weight",
+  "model.diffusion_model.middle_block.1.emb_layers.1.bias": "model.diffusion_model.middle_block.1.in_layers.2.bias",
+  "model.diffusion_model.output_blocks.3.0.emb_layers.1.weight": "model.diffusion_model.output_blocks.3.0.in_layers.2.weight",
+  "model.diffusion_model.output_blocks.3.0.emb_layers.1.bias": "model.diffusion_model.output_blocks.3.0.in_layers.2.bias",
+  "model.diffusion_model.output_blocks.4.0.emb_layers.1.weight": "model.diffusion_model.output_blocks.4.0.in_layers.2.weight",
+  "model.diffusion_model.output_blocks.4.0.emb_layers.1.bias": "model.diffusion_model.output_blocks.4.0.in_layers.2.bias",
+  "model.diffusion_model.output_blocks.5.0.emb_layers.1.weight": "model.diffusion_model.output_blocks.5.0.in_layers.2.weight",
+  "model.diffusion_model.output_blocks.5.0.emb_layers.1.bias": "model.diffusion_model.output_blocks.5.0.in_layers.2.bias"
+}

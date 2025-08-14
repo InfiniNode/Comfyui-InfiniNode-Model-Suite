@@ -1,0 +1,23 @@
+# Keymap for converting Qwen-Image transformer blocks to a standard SDXL UNet format.
+# This is a hypothetical mapping for demonstration purposes.
+# The actual keys would be discovered through model inspection.
+
+# --- Input Blocks ---
+"transformer.input_blocks.0.attn1.to_q.weight": "model.diffusion_model.input_blocks.0.0.transformer_blocks.0.attn1.to_q.weight"
+"transformer.input_blocks.0.attn1.to_k.weight": "model.diffusion_model.input_blocks.0.0.transformer_blocks.0.attn1.to_k.weight"
+"transformer.input_blocks.0.attn1.to_v.weight": "model.diffusion_model.input_blocks.0.0.transformer_blocks.0.attn1.to_v.weight"
+"transformer.input_blocks.0.attn1.to_out.0.weight": "model.diffusion_model.input_blocks.0.0.transformer_blocks.0.attn1.to_out.0.weight"
+
+# Example of mapping a fragmented Qwen-style key
+"Im. gE. dit. NE. -h. cn. eB. -G. Ie. nO.": "model.diffusion_model.input_blocks.1.1.proj_in.weight"
+
+# --- Middle Block ---
+"transformer.middle_block.0.attn1.to_q.weight": "model.diffusion_model.middle_block.0.transformer_blocks.0.attn1.to_q.weight"
+"transformer.middle_block.0.attn1.to_k.weight": "model.diffusion_model.middle_block.0.transformer_blocks.0.attn1.to_k.weight"
+"transformer.middle_block.0.attn1.to_v.weight": "model.diffusion_model.middle_block.0.transformer_blocks.0.attn1.to_v.weight"
+
+# --- VAE Mapping ---
+"vae.encoder.conv_in.weight": "first_stage_model.encoder.conv_in.weight"
+"vae.encoder.conv_in.bias": "first_stage_model.encoder.conv_in.bias"
+"vae.decoder.conv_out.weight": "first_stage_model.decoder.conv_out.weight"
+"vae.decoder.conv_out.bias": "first_stage_model.decoder.conv_out.bias"
